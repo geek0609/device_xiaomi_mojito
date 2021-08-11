@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Sakura Flags
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_BOOT_ANIMATION_RES := 1080
-SAKURA_OFFICIAL := true
+SAKURA_OFFICIAL := false
 SAKURA_MAINTAINER := Ashwin
 TARGET_GAPPS_ARCH := arm64
 SAKURA_BUILD_TYPE=basicgapps
