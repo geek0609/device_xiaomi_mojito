@@ -74,10 +74,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
-# Device init scripts
-PRODUCT_PACKAGES += \
-    init.target.rc
-
 # Camera
 PRODUCT_PACKAGES += \
     Snap \
