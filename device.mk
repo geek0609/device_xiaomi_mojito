@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# ANXCamera
+$(call inherit-product, vendor/xiaomi/ANXCamera/config.mk)
+
 # Inherit virtual_ab_ota product
 $(call inherit-product, \
     $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
